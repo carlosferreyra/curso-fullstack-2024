@@ -1,0 +1,12 @@
+{
+  "name": "curso-fullstack-2024",
+  "version": "1.0.0",
+  "description": "Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["fullstack", "UTN", "curso"],
+  "author": "Carlos Eduardo Ferreyra (https://github.com/carlosferreyra",
+  "license": "MIT"
+}

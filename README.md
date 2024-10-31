@@ -67,7 +67,11 @@ Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Autor
 
-Carlos Eduardo Ferreyra
+ - [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)
+    - [Correo](mailto:eduferreyraok@gmail.com)
+    - [Correo UTN](mailto:jadu_015@ca.frre.utn.edu.ar)
+    - [Linkedin](https://www.linkedin.com/in/eduferreyraok/)
+
 
 ## Agradecimientos
 

@@ -14,6 +14,27 @@ npm >= 9.x
 @angular/cli
 ```
 
+## Contenido
+
+- [Angular](https://angular.io/)
+- [Docker](https://www.docker.com/)
+- [Express](https://expressjs.com/)
+- [Firebase](https://firebase.google.com/)
+- [Jest](https://jestjs.io/) 
+- [NestJS](https://nestjs.com/)
+- [Node.js](https://nodejs.org/es/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+### Entregables (The Lab Coding Hub)
+
+- [Guess a Number][guessNumberGuide]: Juego de adivinar un numero.
+    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
+
+
+
+
+
+
 ## Estructura
 
 Cada ejercicio esta en su propia rama
@@ -52,3 +73,5 @@ Carlos Eduardo Ferreyra
 
 - Universidad Tecnologica Nacional
 - Contribuidores del curso
+
+[guessNumberGuide]: https://drive.google.com/file/d/1QToGZQaGsppiHQCbfm1taTABS9UHaEQy/view

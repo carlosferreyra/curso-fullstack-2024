@@ -8,7 +8,11 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 
 ## Requisitos
 
-``` node >=18.x```
+```
+node >=18.x
+npm >= 9.x
+@angular/cli
+```
 
 ## Estructura
 
@@ -18,7 +22,7 @@ Cada ejercicio esta en su propia rama
 
 ```bash
 # Clonar repo
-git clone https://github.com/usuario/curso-fullstack-2024.git
+git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
 ```
 ```bash
 # Cambiar a rama específica
@@ -36,3 +40,15 @@ npm run dev
 # Frontend 
 ng serve
 ```
+## Contribuir
+
+Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+## Autor
+
+Carlos Eduardo Ferreyra
+
+## Agradecimientos
+
+- Universidad Tecnologica Nacional
+- Contribuidores del curso

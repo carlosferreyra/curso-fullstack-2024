@@ -16,4 +16,23 @@ Cada ejercicio esta en su propia rama
 
 ## Inicio rapido
 
-```git clone```
+```bash
+# Clonar repo
+git clone https://github.com/usuario/curso-fullstack-2024.git
+```
+```bash
+# Cambiar a rama específica
+git checkout <nombre-rama>
+```
+```bash
+# Instalar dependencias
+npm install
+```
+```bash
+# Backend
+npm run dev
+```
+```bash
+# Frontend 
+ng serve
+```

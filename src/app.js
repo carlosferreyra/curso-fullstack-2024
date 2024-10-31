@@ -12,7 +12,7 @@ let attempts = 0;
 let maxAttempts = 0;
 
 const selectDifficulty = () => {
-  rl.question('Select difficulty (easy, medium, hard): ', (difficulty) => {
+  rl.question('Select difficulty (easy, medium, hard, debug): ', (difficulty) => {
     switch (difficulty.toLowerCase()) {
       case 'easy':
         maxAttempts = 10;
@@ -22,6 +22,10 @@ const selectDifficulty = () => {
         break;
       case 'hard':
         maxAttempts = 3;
+        break;
+      case 'debug':
+        maxAttempts = Infinity;
+        console.log(`Debug mode activated. Secret number is ${secretNumber}.`);
         break;
       default:
         console.log('Invalid difficulty. Defaulting to easy.');

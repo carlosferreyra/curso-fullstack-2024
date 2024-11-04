@@ -1,5 +1,5 @@
 class Stack<T extends boolean | string | number> {
-    private items: T[] = [];
+    protected items: T[] = [];
 
     push(item: T): void {
         this.items.push(item);

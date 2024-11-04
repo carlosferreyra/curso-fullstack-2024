@@ -16,14 +16,19 @@ npm >= 9.x
 
 ## Contenido
 
-- [Angular](https://angular.io/)
+[![Google Drive](https://github.com/user-attachments/assets/00e908d5-bb50-42ce-bdf5-1f8f2a31c3e0)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
+
+
+
+### Documentacion Tecnologias
+
+- [Angular](https://angular.dev/)
 - [Docker](https://www.docker.com/)
 - [Express](https://expressjs.com/)
-- [Firebase](https://firebase.google.com/)
-- [Jest](https://jestjs.io/) 
 - [NestJS](https://nestjs.com/)
 - [Node.js](https://nodejs.org/es/)
 - [TypeScript](https://www.typescriptlang.org/)
+
 
 ### Entregables (The Lab Coding Hub)
 
@@ -46,8 +51,8 @@ Cada ejercicio esta en su propia rama
 git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
 ```
 ```bash
-# Cambiar a rama específica
-git checkout <nombre-rama>
+# Cambiar a rama específica (ej: guess-a-number)
+git checkout <nombre-rama> 
 ```
 ```bash
 # Instalar dependencias

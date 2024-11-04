@@ -34,7 +34,8 @@ npm >= 9.x
 
 - [Guess a Number][guessNumberGuide]: Juego de adivinar un numero.
     - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
-
+- [TypeScript - Clases][TypeScriptClases]: Ejercicios de TypeScript con clases.
+    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
 
 
 
@@ -84,3 +85,4 @@ Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Contribuidores del curso
 
 [guessNumberGuide]: https://drive.google.com/file/d/1QToGZQaGsppiHQCbfm1taTABS9UHaEQy/view
+[TypeScriptClases]: https://drive.google.com/file/d/1FQDxCgJ0FWXM5sUh2B2sCSY4DnABUAGC/view?

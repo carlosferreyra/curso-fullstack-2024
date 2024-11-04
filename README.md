@@ -67,9 +67,6 @@ npm run dev
 # Frontend 
 ng serve
 ```
-## Contribuir
-
-Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Autor
 

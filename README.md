@@ -16,7 +16,7 @@ npm >= 9.x
 
 ## Contenido
 
-[![Google Drive](https://github.com/user-attachments/assets/00e908d5-bb50-42ce-bdf5-1f8f2a31c3e0)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
+[![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
 
 
 

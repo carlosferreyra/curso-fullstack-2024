@@ -1,0 +1,39 @@
+name: Sync README across branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+      - name: Sync README across branches
+        run: |
+          # Get all remote branches except main
+          branches=$(git branch -r | grep -v 'main' | grep -v 'HEAD' | sed 's/origin\///')
+          
+          # Get README content from main
+          README_CONTENT=$(cat README.md)
+          
+          # Update README in each branch
+          for branch in $branches; do
+            echo "Syncing README to $branch"
+            git checkout $branch
+            echo "$README_CONTENT" > README.md
+            git add README.md
+            git commit -m "sync: Update README from main branch" || true
+            git push origin $branch
+          done

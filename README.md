@@ -23,9 +23,7 @@ npm >= 9.x
 ### Documentacion Tecnologias
 
 - [Angular](https://angular.dev/)
-- [Docker](https://www.docker.com/)
-- [Express](https://expressjs.com/)
-- [NestJS](https://nestjs.com/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/es/)
 - [TypeScript](https://www.typescriptlang.org/)
 

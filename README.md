@@ -16,20 +16,24 @@ npm >= 9.x
 
 ## Contenido
 
-- [Angular](https://angular.io/)
-- [Docker](https://www.docker.com/)
-- [Express](https://expressjs.com/)
-- [Firebase](https://firebase.google.com/)
-- [Jest](https://jestjs.io/) 
-- [NestJS](https://nestjs.com/)
+[![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
+
+
+
+### Documentacion Tecnologias
+
+- [Angular](https://angular.dev/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/es/)
 - [TypeScript](https://www.typescriptlang.org/)
+
 
 ### Entregables (The Lab Coding Hub)
 
 - [Guess a Number][guessNumberGuide]: Juego de adivinar un numero.
     - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
-
+- [TypeScript - Clases][TypeScriptClases]: Ejercicios de TypeScript con clases.
+    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
 
 
 
@@ -46,8 +50,8 @@ Cada ejercicio esta en su propia rama
 git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
 ```
 ```bash
-# Cambiar a rama específica
-git checkout <nombre-rama>
+# Cambiar a rama específica (ej: guess-a-number)
+git checkout <nombre-rama> 
 ```
 ```bash
 # Instalar dependencias
@@ -61,13 +65,14 @@ npm run dev
 # Frontend 
 ng serve
 ```
-## Contribuir
-
-Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Autor
 
-Carlos Eduardo Ferreyra
+ - [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)
+    - [Correo](mailto:eduferreyraok@gmail.com)
+    - [Correo UTN](mailto:jadu_015@ca.frre.utn.edu.ar)
+    - [Linkedin](https://www.linkedin.com/in/eduferreyraok/)
+
 
 ## Agradecimientos
 
@@ -75,3 +80,4 @@ Carlos Eduardo Ferreyra
 - Contribuidores del curso
 
 [guessNumberGuide]: https://drive.google.com/file/d/1QToGZQaGsppiHQCbfm1taTABS9UHaEQy/view
+[TypeScriptClases]: https://drive.google.com/file/d/1FQDxCgJ0FWXM5sUh2B2sCSY4DnABUAGC/view?

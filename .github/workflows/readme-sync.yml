@@ -6,8 +6,6 @@ on:
       - main
     paths:
       - 'README.md'
-  schedule:
-    - cron: '*/5 * * * *'
 
 jobs:
   sync-readme:

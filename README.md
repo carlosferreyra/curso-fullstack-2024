@@ -1,5 +1,7 @@
 # Curso Fullstack Node.js + Angular 2024
 
+![Sync README](https://github.com/carlosferreyra/curso-fullstack-2024/actions/workflows/readme-sync.yml/badge.svg)
+
 Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es/)
 
 ## Descripcion

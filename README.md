@@ -16,16 +16,14 @@ npm >= 9.x
 
 ## Contenido
 
-[![Google Drive](https://github.com/user-attachments/assets/00e908d5-bb50-42ce-bdf5-1f8f2a31c3e0)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
+[![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
 
 
 
 ### Documentacion Tecnologias
 
 - [Angular](https://angular.dev/)
-- [Docker](https://www.docker.com/)
-- [Express](https://expressjs.com/)
-- [NestJS](https://nestjs.com/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/es/)
 - [TypeScript](https://www.typescriptlang.org/)
 
@@ -34,7 +32,8 @@ npm >= 9.x
 
 - [Guess a Number][guessNumberGuide]: Juego de adivinar un numero.
     - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
-
+- [TypeScript - Clases][TypeScriptClases]: Ejercicios de TypeScript con clases.
+    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
 
 
 
@@ -66,9 +65,6 @@ npm run dev
 # Frontend 
 ng serve
 ```
-## Contribuir
-
-Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Autor
 
@@ -84,3 +80,4 @@ Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Contribuidores del curso
 
 [guessNumberGuide]: https://drive.google.com/file/d/1QToGZQaGsppiHQCbfm1taTABS9UHaEQy/view
+[TypeScriptClases]: https://drive.google.com/file/d/1FQDxCgJ0FWXM5sUh2B2sCSY4DnABUAGC/view?

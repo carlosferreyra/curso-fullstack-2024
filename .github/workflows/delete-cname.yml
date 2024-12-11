@@ -1,0 +1,35 @@
+name: Delete CNAME across branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  delete-cname:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+
+      - name: Delete CNAME across branches
+        run: |
+          # Get all remote branches except main and HEAD
+          branches=$(git branch -r | grep -v 'main' | grep -v 'HEAD' | sed 's/origin\///')
+
+          # Delete CNAME in each branch
+          for branch in $branches; do
+            echo "Deleting CNAME in $branch"
+            git checkout $branch
+            if [ -f CNAME ]; then
+              git rm CNAME
+              git commit -m "chore: Delete CNAME file"
+              git push origin $branch
+            fi
+          done

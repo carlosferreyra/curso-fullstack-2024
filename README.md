@@ -75,6 +75,32 @@ La documentación del proyecto final se encuentra en la rama principal (main). A
 - [Rama de Backend](https://github.com/carlosferreyra/curso-fullstack-2024/tree/backend)
 - [Rama de Frontend](https://github.com/carlosferreyra/curso-fullstack-2024/tree/frontend)
 
+### Instrucciones para ejecutar el proyecto localmente
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
+```
+
+2. Cambiar al directorio del backend y ejecutar el backend:
+
+```bash
+cd curso-fullstack-2024/backend
+npm install
+npm run dev
+```
+
+3. En una nueva terminal, cambiar al directorio del frontend y ejecutar el frontend:
+
+```bash
+cd curso-fullstack-2024/frontend
+npm install
+ng serve
+```
+
+4. La aplicación estará disponible en `http://localhost:4200` y el backend en `http://localhost:3000`.
+
 ## Autor
 
  - [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)

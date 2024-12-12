@@ -58,3 +58,7 @@ Para contribuir a este proyecto, por favor sigue las guías de contribución en 
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Nota
+
+Para obtener instrucciones sobre cómo ejecutar el proyecto completo localmente, consulte el archivo `README.md` principal en la raíz del repositorio.

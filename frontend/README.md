@@ -7,6 +7,9 @@ Este directorio contiene el código fuente del frontend de la aplicación, desar
 - Node.js >= 18.x
 - npm >= 9.x
 - Angular CLI
+- TypeScript >= 4.x
+- Jasmine >= 3.x
+- Karma >= 6.x
 
 ## Instalación
 
@@ -59,6 +62,15 @@ Para contribuir a este proyecto, por favor sigue las guías de contribución en 
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Documentación
+
+### Frontend
+
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Jasmine](https://jasmine.github.io/)
+- [Karma](https://karma-runner.github.io/latest/index.html)
 
 ## Nota
 

@@ -6,29 +6,37 @@ Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es
 
 ## Descripcion
 
-Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullstack usando Node.js y Angular
+Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullstack usando Node.js y Angular. El objetivo del curso es proporcionar a los estudiantes las habilidades necesarias para desarrollar aplicaciones web completas, desde el frontend hasta el backend. A lo largo del curso, los estudiantes trabajarán en proyectos prácticos que les permitirán aplicar los conceptos aprendidos y desarrollar sus propias aplicaciones.
 
 ## Requisitos
 
-```
-node >=18.x
-npm >= 9.x
-@angular/cli
-```
+### Requisitos del Backend
+
+- Node.js >= 18.x
+- npm >= 9.x
+
+### Requisitos del Frontend
+
+- Node.js >= 18.x
+- npm >= 9.x
+- Angular CLI
 
 ## Contenido
 
 [![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
 
-
-
 ### Documentacion Tecnologias
+
+#### Backend
+
+- [Node.js](https://nodejs.org/es/)
+- [Express](https://expressjs.com/es/)
+
+#### Frontend
 
 - [Angular](https://angular.dev/)
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-- [Node.js](https://nodejs.org/es/)
 - [TypeScript](https://www.typescriptlang.org/)
-
 
 ### Entregables (The Lab Coding Hub)
 
@@ -36,10 +44,6 @@ npm >= 9.x
     - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
 - [TypeScript - Clases][TypeScriptClases]: Ejercicios de TypeScript con clases.
     - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
-
-
-
-
 
 ## Estructura
 

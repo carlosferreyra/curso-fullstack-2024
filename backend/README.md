@@ -6,6 +6,10 @@ Este directorio contiene el código fuente del backend de la aplicación, desarr
 
 - Node.js >= 18.x
 - npm >= 9.x
+- Express >= 4.x
+- MongoDB >= 4.x
+- Mongoose >= 5.x
+- Jest >= 26.x
 
 ## Instalación
 
@@ -58,6 +62,16 @@ Para contribuir a este proyecto, por favor sigue las guías de contribución en 
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Documentación
+
+### Backend
+
+- [Node.js](https://nodejs.org/es/)
+- [Express](https://expressjs.com/es/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [Jest](https://jestjs.io/)
 
 ## Nota
 

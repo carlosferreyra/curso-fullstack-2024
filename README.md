@@ -68,6 +68,13 @@ npm run dev
 ng serve
 ```
 
+## Documentación del Proyecto Final
+
+La documentación del proyecto final se encuentra en la rama principal (main). A continuación se listan las ramas relacionadas con el proyecto final:
+
+- [Rama de Backend](https://github.com/carlosferreyra/curso-fullstack-2024/tree/backend)
+- [Rama de Frontend](https://github.com/carlosferreyra/curso-fullstack-2024/tree/frontend)
+
 ## Autor
 
  - [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)

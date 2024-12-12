@@ -49,6 +49,17 @@ Seguir Conventional Commits:
 - [Angular Style Guide](https://angular.io/guide/styleguide)
 - [Conventional Commits](https://www.conventionalcommits.org/es)
 
+## GitHub Copilot Usage Guidelines
+- Use Copilot as a guide, not a crutch. Always review and understand the code suggestions.
+- Combine Copilot with other tools like linters and formatters to ensure code quality.
+- Keep your codebase and dependencies up to date to get the best suggestions.
+- Provide clear and concise comments in your code to help Copilot understand the context.
+
+## Review Process for Copilot Suggestions
+- When using Copilot, ensure that the suggestions are reviewed by at least one collaborator.
+- Verify that the suggestions align with the project's coding standards and guidelines.
+- Test the code thoroughly to ensure it works as expected and does not introduce any bugs.
+
 ## Contacto
 Para dudas o sugerencias:
 - Crear un issue

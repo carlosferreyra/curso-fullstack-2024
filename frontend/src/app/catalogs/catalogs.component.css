@@ -1,0 +1,18 @@
+.catalogs {
+  padding: 20px;
+}
+
+.catalogs h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.catalogs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catalogs li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}

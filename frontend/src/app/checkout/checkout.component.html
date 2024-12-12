@@ -1,0 +1,10 @@
+<div class="checkout">
+  <h2>Checkout</h2>
+  <ul>
+    <li *ngFor="let item of checkoutItems">
+      {{ item.name }} - ${{ item.price }} x {{ item.quantity }}
+    </li>
+  </ul>
+  <p>Total: ${{ getTotalPrice() }}</p>
+  <button (click)="placeOrder()">Place Order</button>
+</div>

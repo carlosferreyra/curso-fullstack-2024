@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the fullstack course",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.3"
+  },
+  "author": "Carlos Ferreyra",
+  "license": "MIT"
+}

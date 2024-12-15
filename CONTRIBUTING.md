@@ -13,7 +13,7 @@
 - Usar ES6+
 - Seguir guía de estilo Airbnb
 - Documentar funciones con JSDoc
-- Tests unitarios con Jest
+- Tests unitarios con Jasmine
 
 ### Frontend (Angular)
 - Seguir Angular Style Guide oficial
@@ -63,4 +63,4 @@ Seguir Conventional Commits:
 ## Contacto
 Para dudas o sugerencias:
 - Crear un issue
-- Correo: nombre@dominio.com
+- Correo: eduferreyraok@gmail.com

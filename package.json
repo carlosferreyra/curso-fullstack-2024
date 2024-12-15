@@ -2,11 +2,34 @@
   "name": "curso-fullstack-2024",
   "version": "1.0.0",
   "description": "Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es/)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "ng": "ng",
+    "start:frontend": "ng serve",
+    "start:backend": "node server.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "keywords": ["fullstack", "UTN", "curso"],
-  "author": "Carlos Eduardo Ferreyra (https://github.com/carlosferreyra",
-  "license": "MIT"
+  "keywords": [
+    "fullstack",
+    "UTN",
+    "curso",
+    "angular",
+    "node",
+    "express"
+  ],
+  "author": "Carlos Eduardo Ferreyra (https://github.com/carlosferreyra)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@angular/cli": "~12.0.0",
+    "@angular/compiler-cli": "~12.0.0",
+    "typescript": "~4.2.3"
+  }
 }

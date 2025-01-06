@@ -29,7 +29,8 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 
 ### Clases
 
-[![YouTube Playlist](https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png)](https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK)
+<!-- add link to playlist and use image-1.png for the image -->
+[![Clases](./image-1.png)](https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK)
 
 ### Documentacion Tecnologias
 

@@ -23,7 +23,13 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 
 ## Contenido
 
+### Drive
+
 [![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
+
+### Clases
+
+[![YouTube Playlist](https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png)](https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK)
 
 ### Documentacion Tecnologias
 

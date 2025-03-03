@@ -54,13 +54,20 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 
 ## Contenido
 
-### Drive
-
-[![Google Drive](https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951)](https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing)
-
-### Clases
-
-[![Clases](./image-1.png)](https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK)
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+    <div style="flex: 1; text-align: center;">
+        <h3>Drive</h3>
+        <a href="https://drive.google.com/drive/folders/1_2dIAe9Bnot5SzJw9RMpVYvi0R4xX6iZ?usp=sharing">
+            <img src="https://github.com/user-attachments/assets/1fab7088-96df-4901-be58-1ce029538951" alt="Google Drive" width="245px" />
+        </a>
+    </div>
+    <div style="flex: 1; text-align: center;">
+        <h3>Clases</h3>
+        <a href="https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK">
+            <img src="./image-1.png" alt="Clases" width="105px" />
+        </a>
+    </div>
+</div>
 
 ### Documentacion Tecnologias
 

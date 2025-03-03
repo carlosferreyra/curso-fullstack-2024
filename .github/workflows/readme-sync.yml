@@ -1,40 +1,51 @@
-name: Sync README across branches
+name: Sync README and Copilot Instructions across branches
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'README.md'
+      - "README.md"
+      - ".github/copilot-instructions.md"
 
 jobs:
-  sync-readme:
+  sync-files:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
       - name: Setup Git
         run: |
-          # Set up Git user name and email
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          
-      - name: Sync README across branches
+
+      - name: Sync files across branches
         run: |
           # Get all remote branches except main
           branches=$(git branch -r | grep -v 'main' | grep -v 'HEAD' | sed 's/origin\///')
-          
-          # Get README content from main
+
+          # Get content from main
           README_CONTENT=$(cat README.md)
-          
-          # Update README in each branch
+          COPILOT_CONTENT=$(cat .github/copilot-instructions.md)
+
+          # Update files in each branch
           for branch in $branches; do
-            echo "Syncing README to $branch"
+            echo "Syncing files to $branch"
             git checkout $branch
+
+            # Update README
             echo "$README_CONTENT" > README.md
-            git add README.md
-            git commit -m "sync: Update README from main branch" || true
+
+            # Create .github directory if it doesn't exist
+            mkdir -p .github
+
+            # Update Copilot instructions
+            echo "$COPILOT_CONTENT" > .github/copilot-instructions.md
+
+            # Commit and push changes
+            git add README.md .github/copilot-instructions.md
+            git commit -m "sync: Update README and Copilot instructions from main branch" || true
             git push origin $branch
           done

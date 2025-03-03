@@ -8,18 +8,49 @@ Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es
 
 Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullstack usando Node.js y Angular. El objetivo del curso es proporcionar a los estudiantes las habilidades necesarias para desarrollar aplicaciones web completas, desde el frontend hasta el backend. A lo largo del curso, los estudiantes trabajarán en proyectos prácticos que les permitirán aplicar los conceptos aprendidos y desarrollar sus propias aplicaciones.
 
+## Estructura del Proyecto
+
+```
+├── backend/          # Servidor Node.js + Express
+├── frontend/         # Aplicación Angular
+├── CONTRIBUTING.md   # Guía de contribución
+├── LICENSE          # Licencia MIT
+├── README.md        # Este archivo
+└── SECURITY.md      # Política de seguridad
+```
+
+## Tabla de Contenidos
+
+- [Requisitos](#requisitos)
+  - [Requisitos del Backend](#requisitos-del-backend)
+  - [Requisitos del Frontend](#requisitos-del-frontend)
+- [Contenido](#contenido)
+  - [Drive](#drive)
+  - [Clases](#clases)
+  - [Documentacion Tecnologias](#documentacion-tecnologias)
+  - [Entregables](#entregables-the-lab-coding-hub)
+- [Inicio rapido](#inicio-rapido)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Autor](#autor)
+- [Agradecimientos](#agradecimientos)
+
 ## Requisitos
 
 ### Requisitos del Backend
 
-- Node.js >= 18.x
-- npm >= 9.x
+- Node.js >= 20.x (LTS) o Node.js >= 18.x (LTS Maintenance)
+- npm >= 10.x
+- Git
 
 ### Requisitos del Frontend
 
-- Node.js >= 18.x
-- npm >= 9.x
-- Angular CLI
+- Node.js >= 20.x (LTS) o Node.js >= 18.x (LTS Maintenance)
+- npm >= 10.x
+- Angular CLI 17.x
+- Git
+
+> **Nota**: Se recomienda usar las versiones LTS (Long Term Support) de Node.js para mayor estabilidad.
 
 ## Contenido
 
@@ -29,7 +60,6 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 
 ### Clases
 
-<!-- add link to playlist and use image-1.png for the image -->
 [![Clases](./image-1.png)](https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK)
 
 ### Documentacion Tecnologias
@@ -48,74 +78,45 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 ### Entregables (The Lab Coding Hub)
 
 - [Guess a Number][guessNumberGuide]: Juego de adivinar un numero.
-    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
+  - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/guess-a-number)
 - [TypeScript - Clases][TypeScriptClases]: Ejercicios de TypeScript con clases.
-    - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
-
-## Estructura
-
-Cada ejercicio esta en su propia rama
+  - [Clic para ir a la rama](https://github.com/carlosferreyra/curso-fullstack-2024/tree/typescript-classes)
 
 ## Inicio rapido
 
 ```bash
 # Clonar repo
 git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
-```
-```bash
-# Cambiar a rama específica (ej: guess-a-number)
-git checkout <nombre-rama> 
-```
-```bash
-# Instalar dependencias
-npm install
-```
-```bash
-# Backend
-npm run dev
-```
-```bash
-# Frontend 
-ng serve
+cd curso-fullstack-2024
 ```
 
-## Proyecto Final
-
-El proyecto final se encuentra en la rama principal (main).
-
-### Instrucciones para ejecutar el proyecto localmente
-
-1. Clonar el repositorio:
+### Backend
 
 ```bash
-git clone https://github.com/carlosferreyra/curso-fullstack-2024.git
-```
-
-2. Cambiar al directorio del backend y ejecutar el backend:
-
-```bash
-cd curso-fullstack-2024/backend
+cd backend
 npm install
 npm run dev
 ```
 
-3. En una nueva terminal, cambiar al directorio del frontend y ejecutar el frontend:
+### Frontend
 
 ```bash
-cd curso-fullstack-2024/frontend
+cd frontend
 npm install
 ng serve
 ```
 
-4. La aplicación estará disponible en `http://localhost:4200` y el backend en `http://localhost:3000`.
+La aplicación estará disponible en:
+
+- Frontend: http://localhost:4200
+- Backend API: http://localhost:3000
 
 ## Autor
 
- - [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)
-    - [Correo](mailto:eduferreyraok@gmail.com)
-    - [Correo UTN](mailto:jadu_015@ca.frre.utn.edu.ar)
-    - [Linkedin](https://www.linkedin.com/in/eduferreyraok/)
-
+- [Carlos Eduardo Ferreyra](https://github.com/carlosferreyra)
+  - [Correo](mailto:eduferreyraok@gmail.com)
+  - [Correo UTN](mailto:jadu_015@ca.frre.utn.edu.ar)
+  - [Linkedin](https://www.linkedin.com/in/eduferreyraok/)
 
 ## Agradecimientos
 
@@ -123,4 +124,4 @@ ng serve
 - Contribuidores del curso
 
 [guessNumberGuide]: https://drive.google.com/file/d/1QToGZQaGsppiHQCbfm1taTABS9UHaEQy/view
-[TypeScriptClases]: https://drive.google.com/file/d/1FQDxCgJ0FWXM5sUh2B2sCSY4DnABUAGC/view?
+[TypeScriptClases]: https://drive.google.com/file/d/1FQDxCgJ0FWXM5sUh2B2sCSY4DnABUAGC/view

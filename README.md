@@ -64,7 +64,7 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
     <div style="flex: 1; text-align: center;">
         <h3>Clases</h3>
         <a href="https://www.youtube.com/playlist?list=PLxvuVQxok4aIdhNFrEXDK0BQn2JTbWIBK">
-            <img src="./image-1.png" alt="Clases" width="105px" />
+            <img src="./assets/imgs/youtube-logo.png" alt="Clases" width="105px" />
         </a>
     </div>
 </div>

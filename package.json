@@ -1,35 +1,39 @@
 {
-  "name": "curso-fullstack-2024",
-  "version": "1.0.0",
-  "description": "Material del curso fullstack para estudiantes de [UTN](https://www.utn.edu.ar/es/)",
-  "main": "server.js",
+  "name": "frontend",
+  "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
     "ng": "ng",
-    "start:frontend": "ng serve",
-    "start:backend": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "keywords": [
-    "fullstack",
-    "UTN",
-    "curso",
-    "angular",
-    "node",
-    "express"
-  ],
-  "author": "Carlos Eduardo Ferreyra (https://github.com/carlosferreyra)",
-  "license": "MIT",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.1",
-    "cors": "^2.8.5"
+    "@angular/animations": "^19.1.0",
+    "@angular/common": "^19.1.0",
+    "@angular/compiler": "^19.1.0",
+    "@angular/core": "^19.1.0",
+    "@angular/forms": "^19.1.0",
+    "@angular/platform-browser": "^19.1.0",
+    "@angular/platform-browser-dynamic": "^19.1.0",
+    "@angular/router": "^19.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/cli": "~12.0.0",
-    "@angular/compiler-cli": "~12.0.0",
-    "typescript": "~4.2.3"
+    "@angular-devkit/build-angular": "^19.1.4",
+    "@angular/cli": "^19.1.4",
+    "@angular/compiler-cli": "^19.1.0",
+    "@types/jasmine": "~5.1.0",
+    "angular-cli-ghpages": "^2.0.3",
+    "jasmine-core": "~5.5.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.7.2"
   }
 }

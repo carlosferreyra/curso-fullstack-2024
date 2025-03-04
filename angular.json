@@ -97,7 +97,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/curso-fullstack-2024/"
+          }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",

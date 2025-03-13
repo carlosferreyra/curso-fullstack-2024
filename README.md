@@ -14,24 +14,27 @@ Este repositorio contiene ejercicios y proyectos para aprender desarrollo fullst
 ├── CONTRIBUTING.md   # Guía de contribución
 ├── LICENSE          # Licencia MIT
 ├── README.md        # Este archivo
-└── SECURITY.md      # Política de seguridad
 ```
 
 ## Tabla de Contenidos
 
-- [Requisitos](#requisitos)
-  - [Requisitos del Backend](#requisitos-del-backend)
-  - [Requisitos del Frontend](#requisitos-del-frontend)
-- [Contenido](#contenido)
-  - [Drive](#drive)
-  - [Clases](#clases)
-  - [Documentacion Tecnologias](#documentacion-tecnologias)
-  - [Entregables](#entregables-the-lab-coding-hub)
-- [Inicio rapido](#inicio-rapido)
-  - [Backend](#backend)
-  - [Frontend](#frontend)
-- [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
+- [Curso Fullstack Node.js + Angular 2024](#curso-fullstack-nodejs--angular-2024)
+  - [Descripcion](#descripcion)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Requisitos](#requisitos)
+    - [Requisitos del Backend](#requisitos-del-backend)
+    - [Requisitos del Frontend](#requisitos-del-frontend)
+  - [Contenido](#contenido)
+    - [Documentacion Tecnologias](#documentacion-tecnologias)
+      - [Backend](#backend)
+      - [Frontend](#frontend)
+    - [Entregables (The Lab Coding Hub)](#entregables-the-lab-coding-hub)
+  - [Inicio rapido](#inicio-rapido)
+    - [Backend](#backend-1)
+    - [Frontend](#frontend-1)
+  - [Autor](#autor)
+  - [Agradecimientos](#agradecimientos)
 
 ## Requisitos
 
